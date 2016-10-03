@@ -12,7 +12,7 @@ This is why I wrote this script. Read the features section to know what makes it
 - Ability to easily detect obfuscated backdoors
 - Ability to detect weevely
 - Detailed reports
-- Beside its functionalities, it also uses API of (VirusTotal)[https://www.virustotal.com] and (ShellRay)[https://shellray.com] to scan your files. (All in one)
+- Beside its functionalities, it also uses API of [VirusTotal](https://www.virustotal.com) and [ShellRay](https://shellray.com) to scan your files. (All in one)
 
 ## Requirements
 Python 2 at least and requests library installed.
@@ -25,7 +25,7 @@ Download ZIP, or by using wget:
 All you have to do is point it to the root directory of your website (or any directory that contains the files that need to be scanned).
 `python php-backdoor-detector.py [options] <directory>`
 ## Third Parties
-ShellRay is used smoothly if you're connected to Internet with no edit, but you may have to SignUp at (VirusTotal)[https://www.virustotal.com] to copy your api key and paste it at variable `apiKey` under `virustotal` function. So that you can use both of them along with script, and get even better results!
+ShellRay is used smoothly if you're connected to Internet with no edit, but you may have to SignUp at [VirusTotal](https://www.virustotal.com) to copy your api key and paste it at variable `apiKey` under `virustotal` function. So that you can use both of them along with script, and get even better results!
 
 *That doesn't mean that you have to be connected to Internet in order to use `PHP backdoor detector`.*
 ## Author
