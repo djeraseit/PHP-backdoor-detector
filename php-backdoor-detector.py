@@ -112,7 +112,7 @@ class Detector:
 					])
 
 	def virustotal(self, file):
-		apiKey = "99b3de5a67bbc64c922eedfa09fc0e281c5fa6a39b8c873ce11d5806b3e7c213"
+		apiKey = ""
 		if apiKey == "": return False
 		try:
 			r = requests.post("https://www.virustotal.com/vtapi/v2/file/scan", data={"apikey": apiKey}, files={"file": file})
